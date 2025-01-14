@@ -6,7 +6,7 @@ app = Flask(__name__)
 def hello_world():
     return render_template('cloud.html')
 
-@app.route('/wiki/google')
+@app.route('/wiki/Google')
 def google():
     return render_template('google.html')
 
